@@ -45,5 +45,5 @@ time.sleep(5)
 driver.find_element_by_id("usernamereg-year").send_keys('2000')
 time.sleep(5)
     
-submitBtn=browser.find_element_by_id("reg-submit-button")
+submitBtn=driver.find_element_by_id("reg-submit-button")
 submitBtn.click()    
