@@ -11,8 +11,8 @@ for i in range(0, 26):
     alpha = chr(ord(alpha) + 1)
     
 
-r = random.choice(test_list)
-test = 'someword'+alpha[i]    
+r = rd.choice(test_list)
+test = 'someword'+r  
 
 email = test
 url='https://login.yahoo.com/account/create?specId=yidReg'
